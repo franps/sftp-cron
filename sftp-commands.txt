@@ -1,2 +1,8 @@
-put test.txt incoming
+# Putting files into sftp server
+#put test.txt incoming
+#ls incoming
+
+# Getting files from sftp server
+
 ls incoming
+get incoming/* .
